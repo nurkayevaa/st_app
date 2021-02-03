@@ -13,13 +13,15 @@ from matplotlib import pyplot as plt
 import plotly.tools
 import altair as alt
 import pandas as pd
-from nltk.stem.snowball import SnowballStemmer
 import nltk
+nltk.download('punkt')
+from nltk.stem.snowball import SnowballStemmer
+
 from nltk.corpus import stopwords
 import string
 
 import pyodbc
-
+print( set(stopwords.words('english')))
 
 st.title('How the sentiment of feedback changes overtime with changes in app version')
 
