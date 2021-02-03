@@ -10,7 +10,7 @@ import json
 from collections import Counter
 from wordcloud import WordCloud
 from matplotlib import pyplot as plt
-import plotly.tools
+
 import altair as alt
 import pandas as pd
 
