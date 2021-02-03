@@ -5,6 +5,9 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import json
+import nltk
+nltk.download('punkt')
+
 from nltk import word_tokenize
 from nltk.util import ngrams
 from collections import Counter
@@ -13,8 +16,7 @@ from matplotlib import pyplot as plt
 import plotly.tools
 import altair as alt
 import pandas as pd
-import nltk
-nltk.download('punkt')
+
 from nltk.stem.snowball import SnowballStemmer
 
 from nltk.corpus import stopwords
