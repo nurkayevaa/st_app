@@ -5,13 +5,13 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import json
-# import nltk
-# nltk.download('punkt')
+import nltk
+nltk.download('punkt')
 
-# from nltk import word_tokenize
-# from nltk.util import ngrams
-# from nltk.stem.snowball import SnowballStemmer
-# from nltk.corpus import stopwords
+from nltk import word_tokenize
+from nltk.util import ngrams
+from nltk.stem.snowball import SnowballStemmer
+from nltk.corpus import stopwords
 from collections import Counter
 from wordcloud import WordCloud
 from matplotlib import pyplot as plt
