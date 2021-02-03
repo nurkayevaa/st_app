@@ -3,21 +3,15 @@ from enum import unique
 from altair.vegalite.v4.api import value
 from pandas.core.frame import DataFrame
 import streamlit as st
-
 import pandas as pd
 import json
-
 from collections import Counter
 from wordcloud import WordCloud
 from matplotlib import pyplot as plt
-
 import altair as alt
 import pandas as pd
-
-
 import string
 
-import pyodbc
 
 st.title('How the sentiment of feedback changes overtime with changes in app version')
 
