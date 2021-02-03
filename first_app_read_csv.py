@@ -3,16 +3,10 @@ from enum import unique
 from altair.vegalite.v4.api import value
 from pandas.core.frame import DataFrame
 import streamlit as st
-# To make things easier later, we're also importing numpy and pandas for
-# working with sample data.
-import numpy as np
+
 import pandas as pd
 import json
-import nltk
-nltk.download('punkt')
-from nltk.util import ngrams
-from nltk.stem.snowball import SnowballStemmer
-from nltk.corpus import stopwords
+
 from collections import Counter
 from wordcloud import WordCloud
 from matplotlib import pyplot as plt
